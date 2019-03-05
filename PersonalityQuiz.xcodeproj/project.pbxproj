@@ -14,6 +14,8 @@
 		64921E61222E238B00210D59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64921E5F222E238B00210D59 /* LaunchScreen.storyboard */; };
 		64921E69222E2AF900210D59 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64921E68222E2AF900210D59 /* QuestionViewController.swift */; };
 		64921E6B222E2B1C00210D59 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64921E6A222E2B1C00210D59 /* ResultsViewController.swift */; };
+		64921E70222E3AE300210D59 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64921E6F222E3AE300210D59 /* Question.swift */; };
+		64921E72222E3BCD00210D59 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64921E71222E3BCD00210D59 /* Answer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		64921E62222E238B00210D59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64921E68222E2AF900210D59 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		64921E6A222E2B1C00210D59 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		64921E6F222E3AE300210D59 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Question.swift; path = ../../Question.swift; sourceTree = "<group>"; };
+		64921E71222E3BCD00210D59 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		64921E55222E238900210D59 /* PersonalityQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				64921E6C222E3A6000210D59 /* Model */,
 				64921E56222E238900210D59 /* AppDelegate.swift */,
 				64921E58222E238900210D59 /* IntroductionViewController.swift */,
 				64921E5A222E238900210D59 /* Main.storyboard */,
@@ -68,6 +73,15 @@
 				64921E62222E238B00210D59 /* Info.plist */,
 			);
 			path = PersonalityQuiz;
+			sourceTree = "<group>";
+		};
+		64921E6C222E3A6000210D59 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64921E6F222E3AE300210D59 /* Question.swift */,
+				64921E71222E3BCD00210D59 /* Answer.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64921E70222E3AE300210D59 /* Question.swift in Sources */,
 				64921E59222E238900210D59 /* IntroductionViewController.swift in Sources */,
 				64921E57222E238900210D59 /* AppDelegate.swift in Sources */,
+				64921E72222E3BCD00210D59 /* Answer.swift in Sources */,
 				64921E69222E2AF900210D59 /* QuestionViewController.swift in Sources */,
 				64921E6B222E2B1C00210D59 /* ResultsViewController.swift in Sources */,
 			);
